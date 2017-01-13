@@ -1,6 +1,6 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "ElectronReact",
+  "name": "self-managing-app",
+  "productName": "self-managing-app",
   "version": "0.10.0",
   "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
   "main": "main.js",
@@ -28,7 +28,7 @@
     "cleanup": "mop -v"
   },
   "build": {
-    "productName": "ElectronReact",
+    "productName": "self-managing-app",
     "appId": "org.develar.ElectronReact",
     "category": "public.app-category.tools",
     "dmg": {
@@ -76,13 +76,13 @@
     "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
   },
   "author": {
-    "name": "C. T. Lin",
-    "email": "chentsulin@gmail.com",
-    "url": "https://github.com/chentsulin"
+    "name": "Kenta Kato",
+    "email": "kken.com@gmail.com",
+    "url": "https://github.com/kken0201"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    "url": "https://github.com/kken0201/self-managing-app/issues"
   },
   "keywords": [
     "electron",
@@ -93,7 +93,7 @@
     "webpack",
     "react-hot"
   ],
-  "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
+  "homepage": "https://github.com/kken0201/self-managing-app#readme",
   "devDependencies": {
     "asar": "^0.12.4",
     "babel-core": "^6.21.0",
