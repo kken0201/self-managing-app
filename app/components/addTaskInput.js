@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import style from './AddTaskInput.css';
 
 export default class AddTaskInput extends Component {
   static propTypes = {
@@ -26,14 +27,18 @@ export default class AddTaskInput extends Component {
 
   render() {
     return (
-      <div>
+      <div className={style.wrapper}>
         <input
+          className={style.input}
           type="text"
           autoFocus="true"
           value={this.state.text}
           onChange={this.handleChange.bind(this)}
         />
-        <button onClick={this.handleSubmit.bind(this)}>追加</button>
+        <button
+          className={style.button + ' fa fa-plus'}
+          onClick={this.handleSubmit.bind(this)}
+        />
       </div>
     );
   }

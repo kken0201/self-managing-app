@@ -1,0 +1,7 @@
+:global(:root) {
+  --primary-color-dark: #012F84;
+  --primary-color-light: #0097D8;
+
+  --secondary-color-dark: #002f83;
+  --secondary-color-light: #6250b1;
+}

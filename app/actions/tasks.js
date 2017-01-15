@@ -1,13 +1,16 @@
 import * as types from '../constants/ActionTypes';
+import { BACKLOG } from '../constants/TaskStateTypes';
 
 const nextTaskId = 0;
 
-export function addTask(text = 'hoge') {
+export function addTask(title = 'hoge') {
   return {
     type: types.ADD_TASK,
     id: nextTaskId + 1,
     completed: false,
-    text
+    memo: '',
+    state: BACKLOG,
+    title
   };
 }
 

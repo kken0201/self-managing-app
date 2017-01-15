@@ -1,0 +1,26 @@
+.topArea {
+  box-sizing: border-box;
+  height: 60vh;
+}
+
+.bottomArea {
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 40px;
+  height: 40vh;
+}
+
+.wrapper {
+  display: flex;
+  box-sizing: border-box;
+  padding: 40px 10px 20px;
+  height: 100%;
+}
+
+.column {
+  flex: 1;
+}
+
+.column:not(:last-child) {
+  margin-right: 10px;
+}
